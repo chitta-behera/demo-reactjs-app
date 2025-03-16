@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "test-repo1"
-  description: test-repo1 running on AWS EKS cluster
+  name: "reactjs"
+  description: reactjs running on AWS S3
   annotations: 
-    github.com/project-slug: SuhasKM2001/s3-workflow
+    github.com/project-slug: chitta-behera/s3-workflow
 spec:
   type: service
   lifecycle: experimental
-  owner: user:guest
+  owner: user:chitta
